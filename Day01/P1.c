@@ -3,7 +3,8 @@
 // 修改1：使用 long long (确保是64位)，而不是 long
 long long power(long x, int n) {
     long long result = 1; 
-    for(int i=0; i<n; i++) {
+    for(int i=0; i<n; i++) 
+    {
         result *= x;
     }
     return result;
